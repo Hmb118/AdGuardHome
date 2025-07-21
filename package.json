@@ -1,7 +1,7 @@
 {
   "name": "adguard110",
   "version": "1.0.0",
-  "main": "src/index.js", // یا مسیر فایل اصلی ورکر شما
+  "main": "src/index.js",
   "scripts": {
     "build": "echo 'No specific build step required for this project.'",
     "start": "wrangler dev",
@@ -10,5 +10,4 @@
   "devDependencies": {
     "wrangler": "^3.0.0"
   }
-  // ... سایر تنظیمات
 }
