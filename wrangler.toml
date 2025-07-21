@@ -1,0 +1,12 @@
+name = "adguard110"
+main = "src/index.js"
+compatibility_date = "2024-07-21"
+# account_id = "YOUR_CLOUDFLARE_ACCOUNT_ID"
+# [routes]
+# pattern = "example.com/*"
+# zone_id = "YOUR_CLOUDFLARE_ZONE_ID"
+# [vars]
+# MY_VARIABLE = "some_value"
+# [site]
+# bucket = "./public"
+# entry-point = "worker"
