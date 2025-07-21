@@ -1,10 +1,14 @@
 {
-  "name": "querylog",
-  "version": "0.1.0",
+  "name": "your-worker-project",
+  "version": "1.0.0",
+  "main": "src/index.js", // یا مسیر فایل اصلی ورکر شما
   "scripts": {
-    "anonymize": "node anonymize.js"
+    "build": "echo 'No specific build step required for this project.'",
+    "start": "wrangler dev",
+    "deploy": "wrangler deploy"
   },
-  "dependencies": {
-    "dns-packet": "^5.2.1"
+  "devDependencies": {
+    "wrangler": "^3.0.0"
   }
+  // ... سایر تنظیمات
 }
